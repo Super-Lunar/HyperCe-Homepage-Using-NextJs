@@ -1,0 +1,11 @@
+query Collections {
+  collections {
+    items {
+      id
+      name
+      featuredAsset {
+        preview
+      }
+    }
+  }
+}
